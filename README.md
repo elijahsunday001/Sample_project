@@ -5,7 +5,6 @@ ElleyPAY is a web-based banking management system developed with PHP, MySQL, HTM
 The project also includes an administrative dashboard that enables administrators to manage customers, monitor transactions, and oversee banking activities.
 
 ## Features
-
 ### Customer Features
 - User registration and secure login.
 - Personal banking dashboard.
@@ -31,9 +30,8 @@ The project also includes an administrative dashboard that enables administrator
 - View transaction references and details.
 
 ## Technologies Used
-
 | Technology | Purpose |
-|---|---|
+
 | PHP | Backend development and application logic |
 | MySQL | Database management |
 | PDO | Secure database connectivity |
@@ -45,8 +43,6 @@ The project also includes an administrative dashboard that enables administrator
 | phpMyAdmin | Database administration |
 
 ## Project Structure
-
-```text
 bank-system/
 │
 ├── admin/
@@ -82,9 +78,6 @@ bank-system/
 ├── reset-password.php
 ├── logout.php
 └── README.md
-```
-
-*The structure above describes the main application organization. Your repository may contain additional files.*
 
 ## Installation and Setup
 
@@ -93,27 +86,16 @@ Follow these steps to run ElleyPAY on your local computer.
 ### 1. Clone the Repository
 
 Open your terminal and run:
-
-```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
-```
 
 Navigate into the project directory:
-
-```bash
 cd bank-system
-```
 
 ### 2. Set Up Your Local Server
 
 Install and start MAMP.
-
 Place the project folder inside your MAMP document root, usually:
-
-```text
 Applications/MAMP/htdocs/
-```
-
 On Windows, use your configured MAMP document root.
 
 ### 3. Create the Database
@@ -121,12 +103,9 @@ On Windows, use your configured MAMP document root.
 1. Start Apache and MySQL through MAMP.
 2. Open phpMyAdmin.
 3. Create a database named:
-
-```sql
 CREATE DATABASE bank_system
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
-```
 
 4. Import the project's SQL database file if one is included in the repository.
 
@@ -135,16 +114,11 @@ If no database export is included, create the required tables using the project'
 ### 4. Configure the Database Connection
 
 Open:
-
-```text
 config/database.php
-```
 
 Update the connection details to match your local MySQL configuration.
 
 Example:
-
-```php
 <?php
 
 $host = "localhost";
@@ -180,15 +154,12 @@ try {
     die("Database connection failed.");
 
 }
-```
 
 ### 5. Launch the Application
 
 Open your browser and visit:
 
-```text
 http://localhost/bank-system/
-```
 
 You can now register a customer account and explore the banking features.
 
@@ -241,7 +212,3 @@ This project demonstrates practical implementation of:
 Software Developer | Web Developer
 
 GitHub: [Your GitHub Profile](https://github.com/)
-
-## License
-
-This project is available for educational and portfolio demonstration purposes. Add an appropriate open-source license if you intend to permit redistribution or reuse.
