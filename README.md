@@ -5,6 +5,7 @@ ElleyPAY is a web-based banking management system developed with PHP, MySQL, HTM
 The project also includes an administrative dashboard that enables administrators to manage customers, monitor transactions, and oversee banking activities.
 
 ## Features
+
 ### Customer Features
 - User registration and secure login.
 - Personal banking dashboard.
@@ -18,6 +19,7 @@ The project also includes an administrative dashboard that enables administrator
 - Secure logout functionality.
 
 ### Administrator Features
+
 - Secure administrator login.
 - Administrative dashboard.
 - View registered customers.
@@ -30,6 +32,7 @@ The project also includes an administrative dashboard that enables administrator
 - View transaction references and details.
 
 ## Technologies Used
+
 | Technology | Purpose |
 
 | PHP | Backend development and application logic |
@@ -43,6 +46,7 @@ The project also includes an administrative dashboard that enables administrator
 | phpMyAdmin | Database administration |
 
 ## Project Structure
+
 bank-system/
 │
 ├── admin/
