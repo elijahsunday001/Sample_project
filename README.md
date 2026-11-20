@@ -234,7 +234,7 @@ This project demonstrates practical implementation of:
 
 ## Author
 
-**Elijah Sunday**
+**Elijah Sunday Ochigbo**
 
 Software Developer | Web Developer
 
