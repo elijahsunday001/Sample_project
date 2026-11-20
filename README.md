@@ -84,8 +84,6 @@ bank-system/
 └── README.md
 ```
 
-*The structure above describes the main application organization. Your repository may contain additional files.*
-
 ## Installation and Setup
 
 Follow these steps to run ElleyPAY on your local computer.
