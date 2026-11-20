@@ -238,5 +238,5 @@ This project demonstrates practical implementation of:
 
 Software Developer | Web Developer
 
-GitHub: [Your GitHub Profile](https://github.com/)
+GitHub: https://github.com/elijahsunday001
 
